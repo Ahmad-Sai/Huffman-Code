@@ -1,6 +1,8 @@
 # Huffman-Code
 
+**What is Huffman Coding?**
 
+Huffman coding is an algorithim that performs dataloss compression. 
 
 Original file is: 14990 bytes:
 
