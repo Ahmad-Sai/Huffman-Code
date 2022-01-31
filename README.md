@@ -2,7 +2,7 @@
 
 **What is Huffman Coding?**
 
-Huffman coding is an algorithim that performs dataloss compression. 
+Huffman coding is an algorithim that performs lossless data compression. The huffman coding algorithim generates binary codes for each letter in a specific text file based on its frequency. More freuqenc characters receive a smaller huffman code, whereas low frequenecy characters get long huffman codes. The huffman code algorithim was designed so that no two huffman codes of a specif character are the same, which gives it its strength. Having unqiue huffman codes for each character means that perform compression and decomrpession on a file is with the use of _trees_ is quick and easy.
 
 Original file is: 14990 bytes:
 
