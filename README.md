@@ -27,3 +27,4 @@ Size of binary file: 7892 bytes:
 
 ![image](https://user-images.githubusercontent.com/85080576/151867850-d8064395-720f-4b3e-ae7c-7e3fe54c286d.png)
 
+Similar results were seen from running the program on a text file that contains the book "DUNE".
