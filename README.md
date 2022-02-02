@@ -21,7 +21,7 @@ Below is an example of **_main.cpp _** being run on a text file named **_lorem.t
 
 **Original file is: 14990 bytes:**
 
-![image](https://user-images.githubusercontent.com/85080576/151867970-6b858cef-4f2f-4ef1-8d0f-aeca1835d4aa.png)
+![image](https://user-images.githubusercontent.com/85080576/152095740-e5a54cfb-64bb-42d6-95ed-16be6ecbd774.png)
 
 **Size of binary file: 7892 bytes:**
 
