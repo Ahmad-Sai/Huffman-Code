@@ -17,7 +17,7 @@ To change the file you want to compress, go to **_encode.cpp_** and change **_Li
 
 To compile use: g++ main.cpp priorityqueue.cpp priorityqueue.hpp
 
-Below is an example of **_main.cpp _** being run on a text file named **_lorem.txt_** of size 14990 bytes. The program outputs to files, compress version of the original file that is almost 50% smaller. 
+Below is an example of **_main.cpp _** being run on a text file named **_lorem.txt_** of size 14990 bytes. The program outputs a compressed version of the original file that is 7892 bytes, which is almost 50% smaller. 
 
 Original file is: 14990 bytes:
 
