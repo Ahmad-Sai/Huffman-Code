@@ -139,7 +139,7 @@ void encode(){
 
     // makes empty file
     ofstream myfile;
-    myfile.open ("binaryfile.txt");
+    myfile.open ("binaryfile");
     myfile.close();
     
     unsigned char arr[requiredBytes] = {};
@@ -149,11 +149,8 @@ void encode(){
 
     // writes to binary file
     fstream ff;
-    ff.open("binaryfile.txt");
-    vector<unsigned char> test;
-    vector<int> asc;
-    unsigned char c;
-    
+    ff.open("binaryfile");
+
     for(int i =0; i<requiredBytes;i++){
         ff.write (reinterpret_cast<char*>(&arr[i]), 1);
     }
