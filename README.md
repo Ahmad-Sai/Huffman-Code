@@ -6,7 +6,7 @@ Huffman coding is an algorithm that performs lossless data compression. The Huff
 
 This implementation of the Huffman Coding algorithm takes in a text file and performs compression on it using _encode.cpp_. Running _encode.cpp_ results in a binary file, as well as a _codesFile_, which contains the Huffman encodings for each character. To decompress the binary file, you need to run _decode.cpp_, which reads in the file _codesFile_ and reconstructs the Huffman tree based on its contents. Decoding the file is simple, the program traverses the Huffman tree, until it finds the specific Huffman code in the _encodeString_, then it extracts that character and puts it in a new string.
 
-The program uses:
+**_This program uses:_**
 -  A hash function to calculate the ascii encoding of a character
 -  A prioirty queue that holds the characters with their frequencies
 -  A huffman tree that holds the encodings for each character
@@ -27,4 +27,4 @@ Size of binary file: 7892 bytes:
 
 ![image](https://user-images.githubusercontent.com/85080576/151867850-d8064395-720f-4b3e-ae7c-7e3fe54c286d.png)
 
-Similar results were seen from running the program on a text file that contains the book "DUNE".
+_Similar results were seen from running the program on a text file that contains the book "DUNE"._
