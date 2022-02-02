@@ -11,13 +11,13 @@ The program uses:
 -  A prioirty queue that holds the characters with their frequencies
 -  A huffman tree that holds the encodings for each character
 
-_main.cpp_ is the driver of the program and automatically encodes and decodes the file for you.
+**_For the program to run correctly make sure the text file you want to compress doesn't have any blank lines or newline breaks. And you need to have an empty text file named "codesFile.txt" in your current directory!_**
 
 To change the file you want to compress, go to **_encode.cpp_** and change **_Line 39_** to take in the name of the file you want to compress. 
 
 To compile use: g++ main.cpp priorityqueue.cpp priorityqueue.hpp
 
-Below is an example of main.cpp be running with 
+Below is an example of **_main.cpp _** being run on a text file named **_lorem.txt_** of size 14990 bytes. The program outputs to files, compress version of the original file that is almost 50% smaller. 
 
 Original file is: 14990 bytes:
 
@@ -27,9 +27,3 @@ Size of binary file: 7892 bytes:
 
 ![image](https://user-images.githubusercontent.com/85080576/151867850-d8064395-720f-4b3e-ae7c-7e3fe54c286d.png)
 
-Size of codesFile: 601 bytes:
-
-![image](https://user-images.githubusercontent.com/85080576/151867908-598c4f53-00f2-46c1-b670-6686a7a3948f.png)
-
-
-After the huffman coding alogirthim was run on _lorem.txt_ we see that the file is almost 50% smaller in size.
