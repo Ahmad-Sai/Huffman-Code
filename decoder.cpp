@@ -10,7 +10,7 @@ using namespace std;
 
 void decode(){
     fstream out;
-    out.open("binaryfile.txt");
+    out.open("binaryfile");
     out >> std::noskipws;
     vector<int> asc;
     unsigned char c;
@@ -31,12 +31,11 @@ void decode(){
     int addedZeros = asc[asc.size()-1];    // number of added zeros to specialBit
     string newByte = "";
 
-    // revert the special bit
+    // retrieve the special bit
     for(int i =0; i<8-addedZeros; i++){
         newByte += specialBit[i];
     }
     
-//     string s;
     longString += newByte;
     
     
