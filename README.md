@@ -15,16 +15,16 @@ This implementation of the Huffman Coding algorithm takes in a text file and per
 
 To change the file you want to compress, go to **_encode.cpp_** and change **_Line 39_** to take in the name of the file you want to compress. 
 
-To compile use:** g++ main.cpp priorityqueue.cpp priorityqueue.hpp**
+To compile use: **g++ main.cpp priorityqueue.cpp priorityqueue.hpp**
 
 Below is an example of **_main.cpp _** being run on a text file named **_lorem.txt_** of size 14990 bytes. The program outputs a compressed version of the original file that is 7892 bytes, which is almost 50% smaller. 
 
-**Original file is: 14990 bytes:
-**
+**Original file is: 14990 bytes:**
+
 ![image](https://user-images.githubusercontent.com/85080576/151867970-6b858cef-4f2f-4ef1-8d0f-aeca1835d4aa.png)
 
-**Size of binary file: 7892 bytes:
-**
+**Size of binary file: 7892 bytes:**
+
 ![image](https://user-images.githubusercontent.com/85080576/151867850-d8064395-720f-4b3e-ae7c-7e3fe54c286d.png)
 
 _Similar results were seen from running the program on a text file that contains the book "DUNE"._
