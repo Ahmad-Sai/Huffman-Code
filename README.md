@@ -25,6 +25,6 @@ Below is an example of **_main.cpp _** being run on a text file named **_lorem.t
 
 **Size of binary file: 7892 bytes:**
 
-![image](https://user-images.githubusercontent.com/85080576/151867850-d8064395-720f-4b3e-ae7c-7e3fe54c286d.png)
+![image](https://user-images.githubusercontent.com/85080576/152095697-b7c756d4-c0d9-46fb-8780-ff6598f8d823.png)
 
 _Similar results were seen from running the program on a text file that contains the book "DUNE"._
