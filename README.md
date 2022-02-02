@@ -3,10 +3,8 @@
 **What is Huffman Coding?**
 
 Huffman coding is an algorithm that performs lossless data compression. The Huffman coding algorithm generates binary codes for each letter in a specific text file based on its frequency. More frequent characters receive a smaller Huffman code, whereas low frequency characters get long Huffman codes. The Huffman code algorithm was designed so that no two Huffman codes of a specific character are the same, which gives it its strength. Having unique Huffman codes for each character means that perform compression and decompression on a file is with the use of _trees_ is quick and easy.
-The 
 
 This implementation of the Huffman Coding algorithm takes in file named _lorem.txt_ with the size of 14990 bytes and performs compression on it using _encode.cpp_. Running _encode.cpp_ results in a binary file that is 7892 bytes, which is almost half as large as the original file. To decompress this binary file, you need to run _decode.cpp_, which reads in the file _codesFile_ and reconstruct the Huffman tree based on its contents. Decoding the file is simple, the program traverses the Huffman tree, until it finds the specific Huffman code in the _encodeString_, then it extracts that character and puts it in a new string. This program was made possible by implementing a Huffman tree and using priority queues.
-
 
 
 _main.cpp_ is the driver of the program and automatically encodes and decodes the file for you.
